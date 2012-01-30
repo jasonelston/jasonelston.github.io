@@ -11,4 +11,13 @@ $text-colour: $colour1;
 $hyperlink-colour: $colour5;
 $hyperlink-hover-colour: $colour3;
 
+#photo {
+  $full: 5px 5px 5px #bbb;
+  -webkit-box-shadow: $full;
+  -moz-box-shadow: $full;
+  -ms-box-shadow: $full;
+  -o-box-shadow: $full;
+  box-shadow: $full;
+}
+
 // body { font-family: "Balham kRB"; color: $text-colour; font-size: 1.2em; }
