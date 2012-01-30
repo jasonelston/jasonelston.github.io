@@ -112,12 +112,13 @@ a:active, a:focus { outline: none; }
   padding: 0.809em;
   max-width: 30em;
   margin: auto;
-	background-color: gray;
+/*  background-color: gray;*/
   }
 
 aside {
   width: 100%;
   float: right;
+  margin: 0 0 2.2em;
 }
 
 img#photo {
