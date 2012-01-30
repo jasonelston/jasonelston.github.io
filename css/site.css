@@ -28,8 +28,3 @@ Balham
 @font-face {
   font-family: 'Balham kRB';
   src: url("../fonts/balham-kRB.eot?") format("eot"), url("../fonts/balham-kRB.ttf") format("truetype"), url("../fonts/balham-kRB.woff") format("woff"); }
-
-body {
-  font-family: "Balham kRB";
-  color: #105b63;
-  font-size: 1.2em; }
