@@ -7,7 +7,7 @@
 
 <head>
 <meta charset="utf-8">
-<title></title>
+<title>Jason Elston</title>
 <meta name="description" content="About Jason Elston">
 <meta name="author" content="Jason Elston">
 
@@ -19,49 +19,49 @@
 <link rel="shortcut icon" href="/link/to/favicon.ico">
 <link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
 
-<!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
-<link rel="stylesheet" href="css/global.css" media="all">
-<link rel="stylesheet" href="css/layout.css" media="all and (min-width: 33.236em)">
-<!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
 
-<!--[if (lt IE 9) & (!IEMobile)]>
-<link rel="stylesheet" href="css/layout.css" media="all">
-<![endif]-->
+<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.min.css" media="all">
+<link rel="stylesheet" href="stylesheets/site.css" media="all">
 
-<link rel="stylesheet" href="css/site.css" media="all">
+<!-- <script type="text/javascript" src="/lib/modernizr-1.7.min.js"></script> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/noisy/jquery.noisy.min.js"></script>
 
-<script src="js/libs/modernizr-1.7.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="js/libs/noisy/jquery.noisy.min.js"></script>
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6817692-17']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
 <body>
 
-  <div id="container" class="cf">
+  <div class="container">
+    
+    <div class="header">
+    </div>
 
-    <article>
-
-      <header>
-      	<img id="me_arrow" src="images/me.png" alt="">
-      </header>
-
-      <aside>
-        <img id="photo" src="images/200.jpeg" alt="Jason Elston">
-      </aside>
-
-      <div id="main" class="cf" role="main">
-
-        <p>Hi, my name is Jason Elston.  This is really a place to let you know a little about who I am and where you can find traces of me on the web (and in the real world).</p>
-
+    <div class="row">
+      <div class="offset3 span1">
+        <img alt="Jason Elston" src="images/jason_elston.png">
       </div>
-
-      <footer>
-      	<img id="about_me_arrow" src="images/about_me.png" alt="">
-      </footer>
-
-    </article>
-
+      <div class="span4">
+        <p>Hi, I'm Jason.</p>
+        <p>I work at <a href="http://onezeroone.com.au">One Zero One</a>.  You can see my work history on <a href="http://linkedin.com/in/jasonelston">Linkedin</a>.  I occasionally publish what I'm up to on <a href="http://scrambledminds.com">scrambledminds</a> or <a href="http://twitter.com/jasonelston">twitter</a>. I've taken the odd <a href="http://flickr.com/photos/scrambledminds">photo</a>.</p>
+        <p>I'm on a journey.</p>
+      </div>
+    </div>
+  
   </div>
 
 </body>
